@@ -1,24 +1,3 @@
-<template>
-  <div id="app">
-    <v-header></v-header>
-    <v-nav></v-nav>
-   	<router-view></router-view>
-  </div>
-</template>
-
-<script>
-import vHeader from './components/header/v-header';
-import vNav from './components/nav/v-nav';
-
-export default {
-  name: 'app',
-  components: {
-    vHeader,
-    vNav
-  }
-};
-</script>
-<style>
 * {
 	padding: 0;
 	margin: 0;
@@ -31,7 +10,8 @@ body {
 }
 
 body {
-	font-size: 16px;
+	font-family: "微软雅黑";
+	font-size: 14px;
 }
 
 img {
@@ -109,5 +89,3 @@ i {
 .right {
 	float: right;
 }
-</style>
-

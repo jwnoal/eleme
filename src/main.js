@@ -10,7 +10,7 @@ const routes = [
 {path: '/ratings', component: ratings},
 {path: '/seller', component: seller}
 ];
-const router = new VueRouter({routes: routes});
+const router = new VueRouter({routes: routes, linkActiveClass: 'active'});
 router.push('/goods');
 
 /* eslint-disable no-new */
