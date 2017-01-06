@@ -12,6 +12,10 @@ import vNav from './components/nav/v-nav';
 
 export default {
   name: 'app',
+  data () {
+   return {
+   };
+  },
   components: {
     vHeader,
     vNav
@@ -19,95 +23,5 @@ export default {
 };
 </script>
 <style>
-* {
-	padding: 0;
-	margin: 0;
-}
-
-html,
-body {
-	width: 100%;
-	height: 100%;
-}
-
-body {
-	font-size: 16px;
-}
-
-img {
-	border: 0 none;
-	width: auto\9;
-	height: auto;
-	max-width: 100%;
-	vertical-align: middle;
-	margin-top: -2px;
-	-ms-interpolation-mode: bicubic;
-}
-
-ul {
-	list-style: none;
-}
-
-a {
-	text-decoration: none;
-	cursor: pointer;
-}
-
-button {
-	background: none;
-	border: none;
-}
-
-input,
-button,
-select {
-	outline: none;
-}
-
-input {
-	padding-left: 5px;
-	vertical-align: middle;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-	box-sizing: border-box;
-	padding: 0;
-	*height: 13px;
-	*width: 13px;
-}
-
-em,
-i {
-	font-style: normal;
-}
-
-.clearfloat {
-	zoom: 1;
-}
-
-.clearfloat:after {
-	display: block;
-	clear: both;
-	content: "";
-	visibility: hidden;
-	height: 0;
-}
-
-*,
-*:before,
-*:after {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-.left {
-	float: left;
-}
-
-.right {
-	float: right;
-}
 </style>
 
